@@ -21,4 +21,4 @@ Examples:
 
 <img src="sudoku_start.png" width="400" height="400" /> <img src="sudoku_solved.png" width="400" height="400" />
 
-// Note: These images are not from the same run of Sudoku.
+Note: These images are not from the same run of Sudoku.
