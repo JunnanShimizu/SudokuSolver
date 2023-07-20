@@ -95,7 +95,7 @@ public class Sudoku {
     }
 
     public static void main(String[] args){
-        Sudoku newSudoku = new Sudoku(30); // Creates board with 30 initially locked values
+        Sudoku newSudoku = new Sudoku(12); // Creates board with 30 initially locked values
         newSudoku.solve(1); // Solves
     }
 }
