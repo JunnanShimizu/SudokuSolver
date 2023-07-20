@@ -27,14 +27,14 @@ public class Sudoku {
         }
     }
 
-    public boolean solve(int delay){ //solves board
+    public boolean solve(int delay){ // solves board, artificial delay added to demonstrate depth first search
         CellStack stack = new CellStack();
         Cell bestCell;
 
         int z = 0;
 
         while(stack.size() < 81 - board.numLocked()){
-            System.out.println("Started loop " + z);
+            // System.out.println("Started loop " + z);
             z++;
             if( delay > 0 ) {
                 try {
@@ -56,7 +56,7 @@ public class Sudoku {
                     Cell temp = stack.pop();
                     int previousValue = temp.getValue();
 
-                    for(int i = temp.value + 1; i < 10; i++){
+                    for(int i = temp.getValue() + 1; i < 10; i++){
                         if(board.validValue(temp.getX(), temp.getY(), i)) {
                             bestCell = temp;
                             temp.setValue(i);
@@ -95,16 +95,7 @@ public class Sudoku {
     }
 
     public static void main(String[] args){
-        Sudoku newSudoku = new Sudoku(30);
-//        System.out.println(newSudoku.board.toString());
-
-//        for(int i = 0; i < 81; i++){
-//            newSudoku.findBestCell();
-//        }
-
-        System.out.println(newSudoku.solve(10));
-//        System.out.println(newSudoku.board.toString());
-
-
+        Sudoku newSudoku = new Sudoku(30); // Creates board with 30 initially locked values
+        newSudoku.solve(1); // Solves
     }
 }
