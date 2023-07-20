@@ -6,19 +6,6 @@
 To run the SudokuSolver with a random board of 30 initial value, run in the terminal:
 ```
 git clone https://github.com/JunnanShimizu/SudokuSolver.git
-```
-```
-cd SudokuSolver
-```
-```
-javac Sudoku.java
-```
-```
-java Sudoku.java
-```
-
-```
-git clone https://github.com/JunnanShimizu/SudokuSolver.git
 cd SudokuSolver
 javac Sudoku.java
 java Sudoku.java
