@@ -16,3 +16,10 @@ javac Sudoku.java
 ```
 java Sudoku.java
 ```
+
+```
+git clone https://github.com/JunnanShimizu/SudokuSolver.git
+cd SudokuSolver
+javac Sudoku.java
+java Sudoku.java
+```
