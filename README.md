@@ -18,4 +18,5 @@ java Sudoku.java
 ```
 
 Examples:
+
 <img src="sudoku_1.png" width="400" height="400" /> <img src="sudoku_2.png" width="400" height="400" />
