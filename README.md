@@ -3,7 +3,7 @@
 
 &nbsp;
 
-To run the SudokuSolver with a random board of 30 initial value, run in the terminal:
+To run the SudokuSolver with a random board of 12 initial value, run in the terminal:
 ```
 git clone https://github.com/JunnanShimizu/SudokuSolver.git
 ```
